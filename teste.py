@@ -11,10 +11,6 @@ class BankAccount:
         print(f"{amount} depositado. Novo saldo é {self.balance}.")
 
     def withdraw(self, amount):
-        # TODO: Improe withdraw
-        #  This is an test of todo-to-issue
-        #  ? It's will work?
-        #  //or not
         if amount > self.balance:
             print("Saldo insuficiente.")
         else:
